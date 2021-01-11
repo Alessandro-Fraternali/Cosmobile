@@ -69,6 +69,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 10;
 }
 
 .logo{
@@ -211,11 +212,43 @@ main{
 
 .info-news{
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .info-news>h2{
   color: #3a464e;
   font-weight: lighter;
+}
+
+.blocco-voci{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.slicker-voci{
+  height: 50px;
+  width: 80%;
+  display: flex;
+}
+
+.slicker-voci .items{
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.slicker-voci h3{
+  color: #3a464e;
+  text-align: center;
+  font-size: 16px;
+  height: 50px;
+}
+
+.slicker-voci h3:hover{
+  border-bottom: 5px solid #dddb00;
 }
 
 .bloccodopo{
@@ -227,6 +260,7 @@ main{
 .blocchidopo{
   display: flex;
   justify-content: space-around;
+  align-items: baseline;
 }
 
 .blocchidopo>article{
@@ -303,6 +337,14 @@ main{
   width: 400px;
 }
 
+.green-right>#pory{
+  width: auto;
+  height: 60px;
+  position: absolute;
+  top: 3166px;
+  left: 836px;
+}
+
 .green-right>span{
   font-weight: 900;
   font-size: 26px;
@@ -315,7 +357,7 @@ main{
 }
 
 .banner-partners{
-  height: 400px;
+  height: 300px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -329,8 +371,15 @@ main{
 
 .compagnie{
   width: 80%;
-  height: 150px;
-  background-color: red;
+  height: 100px;
+}
+
+.for_slick_slider{
+  display: flex;
+}
+
+.for_slick_slider .items{
+  display: flex;
 }
 
 .contatti{
