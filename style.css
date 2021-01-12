@@ -25,6 +25,7 @@ nav{
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 2;
 }
 
 .nav-left{
@@ -184,7 +185,7 @@ main{
 
 .info-schede{
   height: 500px;
-  width: 1050px;
+  width: 1150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -193,6 +194,8 @@ main{
 .info-schede>article{
   width: 340px;
   height: 128px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .info-schede>article>div{
@@ -208,6 +211,21 @@ main{
   align-items: center;
   margin-left: 10px;
   color: #3a464e;
+}
+
+.info-schede article:hover{
+  animation: article-zoom 100s linear;
+}
+
+@keyframes article-zoom{
+  0.3%{
+    transform: scale(1.100);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  100%{
+    transform: scale(1.100);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 }
 
 .info-news{
@@ -341,8 +359,8 @@ main{
   width: auto;
   height: 60px;
   position: absolute;
-  top: 3166px;
-  left: 836px;
+  top: 3150px;
+  left: 950px;
 }
 
 .green-right>span{
