@@ -3,9 +3,9 @@ $(function () {
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 3000,
+    // arrows: false,
+    // autoplay: true,
+    // autoplaySpeed: 3000,
   });
 
   $('.autoplay').slick({

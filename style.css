@@ -39,7 +39,7 @@ nav{
 }
 
 .nav-left i{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .nav-right{
@@ -86,7 +86,7 @@ header{
 .header-menu{
   width: 700px;
   height: 60px;
-  margin-right: 100px;
+  margin-right: 80px;
 }
 
 .header-menu>ul{
@@ -196,6 +196,7 @@ main{
   height: 128px;
   padding: 10px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .info-schede>article>div{
@@ -250,6 +251,24 @@ main{
   height: 50px;
   width: 80%;
   display: flex;
+  align-items: center;
+}
+
+.slick-slider{
+  display: flex !important;
+}
+
+.slick-arrow {
+  background-color: transparent !important; /* Green */
+  border: none !important;
+  outline: none;
+  color: black !important;
+  padding: 0px 32px !important;
+  margin-bottom: 20px;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  font-size: 25px !important;
 }
 
 .slicker-voci .items{
@@ -358,9 +377,9 @@ main{
 .green-right>#pory{
   width: auto;
   height: 60px;
-  position: absolute;
-  top: 3150px;
-  left: 950px;
+  position: relative;
+  top: -40px;
+  left: 170px;
 }
 
 .green-right>span{
