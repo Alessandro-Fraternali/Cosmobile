@@ -710,6 +710,14 @@ footer{
     left: -120px;
   }
 
+  .compagnie{
+    width: 100%;
+  }
+
+  .slick-track{
+    min-width: 1px;
+  }
+
   .contatti{
     width: 100%;
     flex-direction: column;
