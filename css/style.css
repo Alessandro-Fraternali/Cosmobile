@@ -589,7 +589,12 @@ footer{
     height: 100%;
   }
 
-  .header-menu ul{
+  .logo{
+    margin: 0;
+    width: 100%;
+  }
+
+  .header-menu{
     display: none;
   }
 
@@ -770,7 +775,7 @@ footer{
   }
 
   footer{
-    height: 2000px;
+    height: 1816px;
     width: 100%;
   }
 
@@ -803,7 +808,7 @@ footer{
   }
 
   .footer-bottom{
-    height: 200px;
+    height: 100px;
     font-size: 22px;
     justify-content: center;
     flex-wrap: wrap;
