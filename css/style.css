@@ -589,7 +589,11 @@ footer{
     height: 100%;
   }
 
-  .header-menu ul{
+  .logo{
+    margin: 0;
+  }
+
+  .header-menu{
     display: none;
   }
 
