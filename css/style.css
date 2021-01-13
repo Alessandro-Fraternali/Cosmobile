@@ -591,7 +591,6 @@ footer{
 
   .logo{
     margin: 0;
-    width: 100%;
   }
 
   .header-menu{
@@ -775,7 +774,7 @@ footer{
   }
 
   footer{
-    height: 1816px;
+    height: 2000px;
     width: 100%;
   }
 
@@ -808,7 +807,7 @@ footer{
   }
 
   .footer-bottom{
-    height: 100px;
+    height: 200px;
     font-size: 22px;
     justify-content: center;
     flex-wrap: wrap;
