@@ -775,7 +775,7 @@ footer{
   }
 
   footer{
-    height: 1816px;
+    height: 1300px;
     width: 100%;
   }
 
@@ -787,9 +787,9 @@ footer{
   }
 
   .footer-info{
-    font-size: 25px;
+    font-size: 16px;
     width: 95%;
-    height: 500px;
+    height: 300px;
   }
 
   .footer-list{
@@ -800,7 +800,7 @@ footer{
     align-items: center;
     text-align: center;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 18px;
   }
 
   .footer-list ul:nth-child(1), .footer-list ul:nth-child(3) {
